@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    
+    .main__img {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./img/backvec7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: brightness(50%);
+    }
+
+    .main__content {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        
+        .topText {
+            position: absolute;
+            width: 30vw;
+            height: 15vw;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -120%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                color: white;
+                font-size: 4.2rem;
+                font-family: 'Poppins';
+            }
+        }
+    }
+}

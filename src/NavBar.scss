@@ -1,0 +1,44 @@
+.navBar__main {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 5vw;
+    background: linear-gradient(0deg, rgba(228, 255, 253, 0.2) 0%, rgba(255,255,255,0) 100%);
+
+    .navBar__content {
+        width: 100%;
+        height: auto;
+        display: flex;
+
+        .navBar__conq {
+            width: 50%;
+            height: 4.7vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 0.3vw solid rgba($color: #d37e46, $alpha: 1.0);
+
+            h3 {
+                color: white;
+                font-family: 'Poppins';
+                font-size: 1.4rem;
+            }
+        }
+
+        .navBar__plan {
+            width: 50%;
+            height: 4.7vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 0.3vw solid rgba($color: #39c0b9, $alpha: 1.0);
+
+            h3 {
+                color: white;
+                font-family: 'Poppins';
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
